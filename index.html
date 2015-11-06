@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -60,13 +61,13 @@
                         <a href="#education">Education</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#publications">Publications</a>
+                        <a href="#research">Research</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#projects">Projects</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#honors">honors</a>
+                        <a href="static/cv.pdf">CV</a>
                     </li>
                 </ul>
             </div>
@@ -94,7 +95,7 @@
 
     <!-- About Section -->
     <section id="about">
-        <div class="container" style="margin-top: 100px;margin-bottom: 100px" >
+        <div class="container" style="margin-top: 120px;margin-bottom: 120px" >
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About Me</h2>
@@ -126,7 +127,7 @@
     </section>
 
     <section class="success" id="education">
-        <div class="container"  style="margin-top: 100px;margin-bottom: 100px" >
+        <div class="container"  style="margin-top: 120px;margin-bottom: 120px" >
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Education</h2>
@@ -135,19 +136,163 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>B.Eng., Computer Science, Tsinghua University, Beijing, P.R. China, 2012-2016</p>
-					<small>- GPA: 93/100 (3.9/4.0) &nbsp Rank: 1/116</small>
+                    <p><b>B.Eng., Computer Science, Tsinghua University, Beijing, P.R. China, 2012-2016</b></p>
+					<p>- GPA: 93/100 (3.9/4.0) &nbsp Rank: 1/116</p>
+					<p>- Selected Honors: CCF Outstanding Undergraduate Award [detail], National Scholarship of China [detail], Singapore Technology Engineering Overseas Scholarship [detail]</p>				
+					<p>- Selected Courses: Data Structures and Algorithms, Fundamentals of Programming, Computer Organization, Operating System, Software Engineering, Machine Learning, Information Retrieval</p>	
 					<p></p><p></p>
                 </div>				
                 <div class="col-lg-12">
-                    <p>B.Ec., Economics, Tsinghua University, Beijing, P.R. China, 2013-2016</p>
+                    <p><b>B.Ec., Economics, Tsinghua University, Beijing, P.R. China, 2013-2016</b></p>
+					<p>- Selected Courses: Intermediate Microeconomics (Game Theory included), Econometrics, Intermediate Macroeconomics, Principles of Finance</p>
                 </div>
             </div>
         </div>
     </section>
 	
-    <section id="publications">
-        <div class="container" style="margin-top: 100px;margin-bottom: 100px" >
+	<section id="research">
+<div class="container"  >
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2>Research</h2>
+            <hr class="star-light">
+        </div>
+    </div>
+	
+    <ul class="timeline myboard">
+      <li class="timeline-inverted">
+          <div class="timeline-badge" style="background-color: white;">
+            <!-- <i class="glyphicon glyphicon-check"></i> -->
+            <img src="img/logo/stanford.jpg">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Big Data and Social Computing Lab </h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> UIC, IL.</i> &nbsp;&nbsp;
+              <i class="glyphicon glyphicon-time"> Jul-Nov 2015 </i> </small></p>
+            </div>
+            <div class="timeline-body">
+              <div data-id="1">
+      <p> Showed signals aggregated from multiple review websites can provide effective and human-interpretable evidences than those from any single website </p>
+      <p> Summitted to International World Wide Web Conference (WWW'16) as first author </p>
+                <br>
+                <a style="float:right;" href="#" onclick="nextTimelineBody(this); return false;">&gt;&gt;&gt; more</a>
+              </div>
+              <div data-id="2" style="display: none;">
+                 RL is a generic framework that enables agents learn skills by interacting with the environment, quite like the way human learns. The potential for applications is huge, including 
+                  <ul>
+                    <li> controling robots, drones and self-driving cars. </li>
+                    <li> general game playing of Go, Atari, etc. </li>
+                    <li> inference algorithms that explicitly models computational cost <a href="http://cs.stanford.edu/~pliang/papers/sample-aistats2015.pdf">[Shi, Steinhardt &amp; Liang 2015]</a> </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-badge" style="background-color: white;">
+            <!-- <i class="glyphicon glyphicon-check"></i> -->
+            <img src="img/logo/dbx.png">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Knowledge Engineering Group</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing. </i> &nbsp;&nbsp;
+              <i class="glyphicon glyphicon-time"> 2014-present </i> </small></p>
+            </div>
+            <div class="timeline-body">
+              <p data-id="1">
+                Nowadays, people take tons of of photos to memorize life moments. I applied deep learning to help better curate those <i>personal photos</i>.
+                <a href="#" onclick="nextTimelineBody(this); return false;">Learn more</a>
+              </p>
+              <p data-id="2" style="display: none;">
+                At Hack Week, I built a camera-upload app for Google Glass. So it takes photos every few seconds and upload to Dropbox. Meanwhile, CV algorithms at backend curate those photos and aggregate into events like meeting people, reading documents, etc. 
+                <br>
+                I presented the project to <a href="https://en.wikipedia.org/wiki/Drew_Houston">Drew Houston, CEO of Dropbox</a>.
+                <img src="research/dropbox/drew.jpg">
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-badge" style="background-color: white;">
+            <!-- <i class="glyphicon glyphicon-check"></i> -->
+            <img src="img/logo/ms.jpg">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Institute of HCI and Media Integration </h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing </i> &nbsp;&nbsp;
+              <i class="glyphicon glyphicon-time"> Jun-Jul 2015 </i> </small></p>
+            </div>
+            <div class="timeline-body">
+              <p data-id="1">
+                Survey companies spend millions of dollars each year to collect data such as social polls. We developed an aggregation technique to significantly reduce that cost.
+                <br> 
+                <a href="#" onclick="nextTimelineBody(this); return false;">Learn more</a>
+              </p>
+              <div data-id="2" style="display: none;">
+                Our approach uses ideas from <a href="http://statweb.stanford.edu/~ckirby/brad/LSI/chapter1.pdf">James-Stein estimators</a>.
+                <br>
+                The following figure shows results on "women at work" polls. Our methods (DNN and OMP) need much fewer samples.
+                  <img src="research/csavg/fework.png" style="height: 300px;">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-badge" style="background-color: white;">
+            <!-- <i class="glyphicon glyphicon-check"></i> -->
+            <img src="img/logo/stanford.jpg">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">FPGA Challenge Project</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing </i> &nbsp;&nbsp;
+              <i class="glyphicon glyphicon-time"> Sep-Dec 2014</i> </small></p>
+            </div>
+            <div class="timeline-body">
+              <p data-id="1">
+                We used reinforcement learning to optimize inference algorithms. By learning where to sample, we could speed up the run-time performance 2X-5X for a wide range of models. 
+                <a href="#" onclick="nextTimelineBody(this); return false;">Learn more</a>
+              </p>
+              <p data-id="2" style="display: none;">
+                The following plot visualizes the behavior of the optimized sampler. This is a <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">Name Entitiy Recognition</a> task. Each row is a snapshot of the number of samples generated several steps. Darker cells mean more cumulative samples generated.
+                <img src="research/heterosampler/ner.png">
+                <br>
+                 Without optimization, the sampler (cyclic Gibbs) allocates computational resources uniformly. While the optimized (heterogeneous) sampler knows where to sample.
+              </p>
+            </div>
+          </div>
+        </li>
+
+         <li class="timeline-inverted">
+          <div class="timeline-badge" style="background-color: white;">
+            <!-- <i class="glyphicon glyphicon-check"></i> -->
+            <img src="img/logo/mit-sq.png">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Information Retrieval Group</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing.</i> &nbsp;&nbsp;
+              <i class="glyphicon glyphicon-time"> May-Aug 2014</i> </small></p>
+            </div>
+            <div class="timeline-body">
+              <p data-id="1">
+                 Contributed to a probabilistic programming system called <a href="http://probcomp.csail.mit.edu/venture/">Venture</a> by building scalable HMC inference algorithms using automatic gradients
+              </p>
+            </div>
+          </div>
+        </li>
+
+    </div>	
+	</section>
+			
+    <!-- <section id="publications">
+        <div class="container" style="margin-top: 120px;margin-bottom: 120px" >
             <div class="row">
                 <div class="col-lg-12 text-center" >
                     <h2>Publications & Manuscripts</h2>
@@ -159,17 +304,18 @@
                     <!-- <small><b>Yuan Yuan</b>, Sihong Xie, Chun-ta Lu, Jie Tang and Philip S. Yu</small><br>
 					<small>M-square: An Opinion Spam Detection Framework using Multi-site Temporal Sentimental Patterns <a href="">[abs]</a></small><br>
 					<small><b>WWW 2016:</b> Submitted to 25th International Conference on World Wide Web</small><br> -->
-						<br>
+						<!-- <br>
 					<p><b>M-square: An Opinion Spam Detection Framework using Multi-site Temporal Sentimental Patterns</b> <a href="">[abs]</a></p>
                     <p><b>Yuan Yuan</b>, Sihong Xie, Chun-ta Lu, Jie Tang and Philip S. Yu</p>
 					<p><b>WWW 2016:</b> Submitted to 25th International Conference on World Wide Web</p>
-					<p></p>
+					<br>
+					<br>
 					<small></small>
-                </div>				
+                </div>
             </div>
         </div>
     </section>
-	
+	 --> 
 	
     <!-- Portfolio Grid Section -->
     <section class="success" id="projects">
@@ -246,8 +392,8 @@
     </section>
 
 	
-    <section id="honors">
-        <div class="container" style="margin-top: 100px;margin-bottom: 100px" >
+    <!-- <section id="honors">
+        <div class="container" style="margin-top: 120px;margin-bottom: 120px" >
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Selected Honors & Awards</h2>
@@ -256,13 +402,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-					<p>2015 CCF Outstanding Undergraduate Award <a href="">[detail]</a></p>
-					<p>2014 National Scholarship of China <a href="">[detail]</a></p>
-					<p>2013 Singapore Technology Engineering Overseas Scholarship <a href="">[detail]</a></p>
-                </div>				
+					<p>2015 &nbsp CCF Outstanding Undergraduate Award <a href="">[detail]</a></p>
+					<p>2014 &nbsp National Scholarship of China <a href="">[detail]</a></p>
+					<p>2013 &nbsp Singapore Technology Engineering Overseas Scholarship <a href="">[detail]</a></p>
+                </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- Footer -->
@@ -497,6 +643,45 @@
             </div>
         </div>
     </div>
+
+    <div class="portfolio-modal modal fade" id="honorModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-light">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
