@@ -9,19 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Yuan Yuan's Homepage</title>
+    <title>Logo Nav - Start Bootstrap Template</title>
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/timeline.css" rel="stylesheet" />
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="css/logo-nav.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,589 +26,58 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Yuan Yuan</a>
+                <a class="navbar-brand" href="#">
+                    <img src="http://placehold.it/150x50&text=Logo" alt="">
+                </a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
+                    <li>
+                        <a href="#">Services</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#education">Education</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#research">Research</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="static/cv.pdf">CV</a>
+                    <li>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">YUÁN YUÁN</span>
-                        <hr class="star-light">
-                        <span class="skills">My name in Chinese sounds like DOUBLE CIRCLES!</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container" style="margin-top: 120px;margin-bottom: 120px" >
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <p>I am a senior undergraduate student from Dept. of Computer Science at Tsinghua University. My research interest focuses primarily on <a href="https://en.wikipedia.org/wiki/Data_mining">data mining</a>, especially  and its combination with economics, linguistics and social sciences. Meanwhile, I am interested in machine learning, natural language processing and information retrieval.</p>
-                </div>
-                <div class="col-lg-12">
-                    <p>Currently, my advisors are Prof. <a href="http://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a> at Tsinghua University and Prof. <a href="https://www.cs.uic.edu/PSYu">Philip S. Yu</a> at University of Illinois at Chicago.</p>
-                </div>
-				<div class="col-lg-12">
-					<p>I am looking for a Ph.D. position in computer science. <a href="static/cv.pdf">[cv]&nbsp</a><a href="static/tscp.pdf">[tscp]</a></p>
-				</div>	
-                <div class="col-lg-12">
-                    <p>You may contact me via email: yuany [dot] cs [at] gmail [dot] com</p>
-                </div>
-
-				
-                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-    <section class="success" id="education">
-        <div class="container"  style="margin-top: 120px;margin-bottom: 120px" >
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Education</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p><b>B.Eng., Computer Science, Tsinghua University, Beijing, P.R. China, 2012-2016</b></p>
-					<small>- GPA: 93/100 (3.9/4.0) &nbsp Rank: 1/116 &nbsp Transcript: <a href="static/tscp.pdf" >[tscp]</a></small><br>
-					<small>- Selected Honors: CCF Outstanding Undergraduate Award <a href="#honorModal1" class="portfolio-link" data-toggle="modal">[detail]</a>, National Scholarship of China <a href="#honorModal2" class="portfolio-link" data-toggle="modal">[detail]</a>, Singapore Technology Engineering Overseas Scholarship <a href="#honorModal3" class="portfolio-link" data-toggle="modal">[detail]</a></small><br>				
-					<small>- Selected Courses: Data Structures and Algorithms, Fundamentals of Programming, Computer Organization, Operating System, Software Engineering, Machine Learning, Information Retrieval</small><br>	
-					<p></p><p></p>
-                </div>				
-                <div class="col-lg-12">
-                    <p><b>B.Ec., Economics, Tsinghua University, Beijing, P.R. China, 2013-2016</b></p>
-					<small>- Selected Courses: Intermediate Microeconomics (Game Theory included), Econometrics, Intermediate Macroeconomics, Principles of Finance</small>
-                </div>
-            </div>
-        </div>
-    </section>
-	
-	<section id="research">
-<div class="container"  >
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2>Research</h2>
-            <hr class="star-light">
-        </div>
-    </div>
-	
-    <ul class="timeline myboard">
-      <li class="timeline-inverted">
-          <div class="timeline-badge" style="background-color: white;">
-            <!-- <i class="glyphicon glyphicon-check"></i> -->
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Big Data and Social Computing Lab </h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> UIC, IL.</i> &nbsp;&nbsp;
-              <i class="glyphicon glyphicon-time"> Jul-Nov 2015 </i> </small></p>
-            </div>
-            <div class="timeline-body">
-              <div data-id="1">
-      <p> Research Assistant: Opinion Spam Detection on Location-Based Social Network </p>
-      <p> Summitted to International World Wide Web Conference (WWW'16) as first author <a href="#pubModal1" class="portfolio-link" data-toggle="modal">[detail]</a></p>
-              </div>
-            </div>
-        </li>
-
-        <li>
-          <div class="timeline-badge" style="background-color: white;">
-            <!-- <i class="glyphicon glyphicon-check"></i> -->
-
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Knowledge Engineering Group</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing. </i> &nbsp;&nbsp;
-              <i class="glyphicon glyphicon-time"> 2014-present </i> </small></p>
-            </div>
-            <div class="timeline-body">
-              <p data-id="1">
-				  <p>Research Assistant: Quality Analysis and Predication Official Accounts on Wechat</p>
-<p>Research Assistant: Expert finding on Arnet Miner: An Academic Search Engine</p>
-            </div>
-          </div>
-        </li>
-
-        <li class="timeline-inverted">
-          <div class="timeline-badge" style="background-color: white;">
-            <!-- <i class="glyphicon glyphicon-check"></i> -->
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Institute of HCI and Media Integration </h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing </i> &nbsp;&nbsp;
-              <i class="glyphicon glyphicon-time"> Jun-Jul 2015 </i> </small></p>
-            </div>
-            <div class="timeline-body">
-              <p data-id="1">
-<p>Professinal Training: Psychological Stress Detection on Social Media</p>
-              </p>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="timeline-badge" style="background-color: white;">
-            <!-- <i class="glyphicon glyphicon-check"></i> -->
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">FPGA Challenge Project</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing </i> &nbsp;&nbsp;
-              <i class="glyphicon glyphicon-time"> Sep-Dec 2014</i> </small></p>
-            </div>
-            <div class="timeline-body">
-              <p data-id="1">Challenge Project: Chinese Chat platform on FPGA</p>
-            </div>
-          </div>
-        </li>
-
-         <li class="timeline-inverted">
-          <div class="timeline-badge" style="background-color: white;">
-            <!-- <i class="glyphicon glyphicon-check"></i> -->
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Information Retrieval Group</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"> Tsinghua U, Beijing.</i> &nbsp;&nbsp;
-              <i class="glyphicon glyphicon-time"> May-Aug 2014</i> </small></p>
-            </div>
-            <div class="timeline-body">
-              <p data-id="1">
-                 Research Assistant: Long Tail Query on Search Engine
-              </p>
-            </div>
-          </div>
-        </li>
-
-    </div>	
-	</section>
-			
-    <!-- <section id="publications">
-        <div class="container" style="margin-top: 120px;margin-bottom: 120px" >
-            <div class="row">
-                <div class="col-lg-12 text-center" >
-                    <h2>Publications & Manuscripts</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- <small><b>Yuan Yuan</b>, Sihong Xie, Chun-ta Lu, Jie Tang and Philip S. Yu</small><br>
-					<small>M-square: An Opinion Spam Detection Framework using Multi-site Temporal Sentimental Patterns <a href="">[abs]</a></small><br>
-					<small><b>WWW 2016:</b> Submitted to 25th International Conference on World Wide Web</small><br> -->
-						<!-- <br>
-					<p><b>M-square: An Opinion Spam Detection Framework using Multi-site Temporal Sentimental Patterns</b> <a href="">[abs]</a></p>
-                    <p><b>Yuan Yuan</b>, Sihong Xie, Chun-ta Lu, Jie Tang and Philip S. Yu</p>
-					<p><b>WWW 2016:</b> Submitted to 25th International Conference on World Wide Web</p>
-					<br>
-					<br>
-					<small></small>
-                </div>
-            </div>
-        </div>
-    </section>
-	 --> 
-	
-    <!-- Portfolio Grid Section -->
-    <section class="success" id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Selected Projects</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tree.png"  alt="" height=230 width=300 />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/reversi.png"  alt="" height=230 width=300 />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/serial.png" alt="" height=230 width=300 />  
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/biopedia.png" alt="" height=230 width=300 />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cpu.png" alt="" height=230 width=300 />
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-	
-    <!-- <section id="honors">
-        <div class="container" style="margin-top: 120px;margin-bottom: 120px" >
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Selected Honors & Awards</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-					<p>2015 &nbsp CCF Outstanding Undergraduate Award <a href="">[detail]</a></p>
-					<p>2014 &nbsp National Scholarship of China <a href="">[detail]</a></p>
-					<p>2013 &nbsp Singapore Technology Engineering Overseas Scholarship <a href="">[detail]</a></p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-    <!-- Footer -->
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>GUI Design: A Painter to show Rectilinear Steiner Tree</h2>
-                            <hr class="star-light">
-                            <img src="img/portfolio/tree.png" class="img-responsive img-centered" alt="">
-                            <p>This work is to show the Rectilinear Steiner Minimum Tree of given points.
-							Points can be added, removed, moved by users.
-							The graphical user interface is designed as a Painter in Windows. We have a menu with all kinds of common functions.
-							Written in Qt-C++. <a href="https://github.com/yuany12/tree">[code]</a></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Logo Nav by Start Bootstrap</h1>
+                <p>Note: You may need to adjust some CSS based on the size of your logo. The default logo size is 150x50 pixels.</p>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Online Game: Reversi</h2>
-                            <hr class="star-light">
-                            <img src="img/portfolio/reversi.png" class="img-responsive img-centered" alt="">
-                            <p>We use Qt-C++ to design an online game named reversi. Socket and multithreads are utilzed. Users can chat with both English and Chinese during this game. <a href="https://github.com/yuany12/reversi">[code]</a></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>CHAT on FPGA Platforms</h2>
-                            <hr class="star-light">
-                            <img src="img/portfolio/serial.png" class="img-responsive img-centered" alt="">
-							<p>Team members: Yuan Yuan, Kun Cheng</p>
-                            <p>We use VHDL to design a chat tool. With serial communication, two FPGA platforms are able to reach each other. We support both English and Chinese.<a href="https://github.com/yuany12/serial">[code]</a></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>BIOPEDIA: Online Informatics Data Center</h2>
-                            <hr class="star-light">
-                            <img src="img/portfolio/biopedia.png" class="img-responsive img-centered" alt="">
-							<p>Team members: Yuan Yuan, Jiaming Song, Shuang Teng, Di Xiao, Yu Yang</p>
-                            <p>A website for storing bioinformatics related data, which contains basic navigation, data management and data visualization. The website is a project for the Software Engineering class, and is implemented using the Flask framework + MongoDB. We finished a demo skeleton, which was then handed to the Bioinformatics Lab in Tsinghua University. <a href="https://github.com/yuany12/biopedia">[code]</a></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Advanced CPU</h2>
-                            <hr class="star-light">
-                            <img src="img/portfolio/cpu.png" class="img-responsive img-centered" alt="">
-							<p>Team members: Yuan Yuan, Tianyi Wang, Penghe Wu</p>
-                            <p>An efficient self-designed CPU on FPGA. Besides, we implements sereral advanced functions, such as clock interrupt, multiple processes, graphical interface and software-level games. <a href="https://github.com/yuany12/cpu">[code]</a></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    <div class="portfolio-modal modal fade" id="honorModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>CCF Outstanding Undergraduate Award</h2>
-                            <hr class="star-light">
-                            <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
-                            <p>I was awarded on Oct., 2015. Only two students at Tsinghua University and approxiamately 100 in China receive this award each year. It was offered by China Computer Federation (CCF)</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="honorModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>National Scholarship of China</h2>
-                            <hr class="star-light">
-                            <p>I was awarded in 2014. Only three students from Dept. Computer Science at Tsinghua University are awarded each year. It is the top scholarship provided by Chinese government (Ministry of Education of P.R. China)</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="honorModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Singapore Technology Engineering Overseas Scholarship</h2>
-                            <hr class="star-light">
-                            <p>I was awarded in since 2013. Only six students at Tsinghua University received this award. It was Offered by Singapore Technologies Engineering Ltd</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="pubModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3>M-square: An Opinion Spam Detection Framework using Multi-site Temporal Sentimental Patterns</h3>
-                            <hr class="star-light">
-                            <p><b>Yuan Yuan</b>, Sihong Xie, Chun-ta Lu, Jie Tang and Philip S. Yu</p>
-							<p><b>WWW 2016:</b> Submitted to 25th International Conference on World Wide Web</p>
-							<p>Abstract: <small>Online review websites have been serving as hubs of millions of opinionated texts and ratings for businesses worldwide. The ratings and sentiments on these websites can significantly and directly influence businesses and customer experiences. Meanwhile, underground and organized spammers are creating a huge volume of fake reviews to hijack the review systems to oversell or defame businesses purposely. It is important to uncover these spamming attacks and eliminate unjust ratings and reviews to protect all participants in the systems. Inspired by the comprehensive and complementary information contained in multiple data sources, we argue that signals aggregated from multiple review websites can provide e↵ective and human-interpretable evidences than those from any single website. Previous studies either fail to jointly model rating and review data from multiple sites, or lack of a principled and streamlined spam detection pipeline to model and exploit multiple sources. We close this gap by proposing a two-level detection pipeline. We first design a suite of cross-site sentimental time series patterns that are indicative of high level abnormal activities. We then characterize these patterns and identify the most predictive ones for spam detection. The patterns and a general and scalable pattern detection algorithm comprise the macroscopic step. We demonstrate via human annotations, that the pipeline can spot a sizable collection of spams that have filtrated one of the current commercial anti-spam systems. To further identify individual these un-spotted spams on the microscopic level, we study and identify various textual and behavioral features that are correlated with the spams within the detected time windows. The overall pipeline is simple, effective and scalable, and complements the current state-of-the-art approaches. </small><p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
 
 </body>
 
